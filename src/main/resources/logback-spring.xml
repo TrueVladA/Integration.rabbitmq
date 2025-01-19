@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <appender name="Console"
+              class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %black(%d{ISO8601}) %highlight(%-5level) [%blue(%t)] %yellow(%C{1.}): %msg%n%throwable
+            </Pattern>
+        </layout>
+    </appender>
+
+    <appender name="json" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ru.bpmcons.sbi_elma.message.logging.LoggerContextLayout">
+            <timestampFormatTimezoneId>Etc/UTC</timestampFormatTimezoneId>
+            <jsonFormatter
+                    class="ru.bpmcons.sbi_elma.JsonFormatLogger">
+<!--                <prettyPrint>true</prettyPrint>-->
+            </jsonFormatter>
+            <appendLineSeparator>true</appendLineSeparator>
+            <includeContextName>false</includeContextName>
+            <includeThreadName>false</includeThreadName>
+            <includeLoggerName>false</includeLoggerName>
+            <timestampFormat>yyyy-MM-dd' 'HH:mm:ss.SSSX</timestampFormat>
+        </layout>
+    </appender>
+
+    <springProfile name="test">
+        <root level="info">
+            <appender-ref ref="json" />
+        </root>
+    </springProfile>
+    <springProfile name="local">
+        <root level="info">
+            <appender-ref ref="Console" />
+        </root>
+    </springProfile>
+    <springProfile name="dev">
+        <root level="info">
+            <appender-ref ref="Console" />
+        </root>
+    </springProfile>
+    <springProfile name="preprod">
+        <root level="info">
+            <appender-ref ref="json" />
+        </root>
+    </springProfile>
+    <springProfile name="prod">
+        <root level="info">
+            <appender-ref ref="json" />
+        </root>
+    </springProfile>
+</configuration>

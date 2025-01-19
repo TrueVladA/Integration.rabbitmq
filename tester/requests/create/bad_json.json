@@ -1,0 +1,333 @@
+{
+  "app_id": "4e440f6d-efdd-4b6d-a160-54f55c8e78e0",
+  "contract_date": "2023-01-30T20:59:59",
+  "contract_end_date": "2024-01-31T20:59:59",
+  "contract_full_number": "096РџР 1960005439",
+  "contract_number": "096РџР 1960005439",
+  "contract_start_date": "2023-01-31T21:00:00",
+  "contract_type": {
+    "dictName": "ContractTypes",
+    "dictValues": [
+      {
+        "dictValue": {
+          "group": "EADOC",
+          "value": "contract_ins"
+        }
+      }
+    ]
+  },
+  "creator": {
+    "app_id": "4e440f6d-efdd-4b6d-a160-54f55c8e78e0",
+    "email": "olesya.karmannikova@sberins.ru",
+    "fullname": "РљР°СЂРјР°РЅРЅРёРєРѕРІР° РћР»РµСЃСЏ РќРёРєРѕР»Р°РµРІРЅР°",
+    "id_as_creator": "3657",
+    "role": "creator"
+  },
+  "doc_date": "2023-07-17T18:56:08",
+  "doc_full_number": "112853-Р“Рћ-23",
+  "doc_name": "DamageRequest 112853-Р“Рћ-23",
+  "doc_number": "112853-Р“Рћ-23",
+  "doc_parties": [
+    {
+      "INN": "7820315963",
+      "app_id": "4e440f6d-efdd-4b6d-a160-54f55c8e78e0",
+      "birthdate": "1980-01-15",
+      "fio": "РљРѕСЂР¶РµРЅРєРѕ Р’РёРєС‚РѕСЂ РРІР°РЅРѕРІРёС‡",
+      "fullname": "РћР‘Р©Р•РЎРўР’Рћ РЎ РћР“Р РђРќРР§Р•РќРќРћР™ РћРўР’Р•РўРЎРўР’Р•РќРќРћРЎРўР¬Р® "
+      РќРћР
+      ’
+      РђРЇ
+      РР
+      –
+      РћР
+      Рђ
+      "",
+      "id_as_party": "24438484",
+      "identity_doc": "РџР°СЃРїРѕСЂС‚ 2244 2233444 Р“РЈ РњР’Р” Р РћРЎРЎРР РџРћ Р“. РЎРђРќРљРў-РџР•РўР•Р Р‘РЈР Р“РЈ Р Р›Р•РќРРќР“Р РђР”РЎРљРћР™ РћР‘Р›РђРЎРўР 2022-01-20",
+      "identity_doc_obj": {
+        "app_id": "4e440f6d-efdd-4b6d-a160-54f55c8e78e0",
+        "code_identitydoc": {
+          "dictName": "DocumentTypes",
+          "dictValues": [
+            {
+              "dictValue": {
+                "group": "EADOC",
+                "value": "passport_rf"
+              }
+            }
+          ]
+        },
+        "fio": "РљРѕСЂР¶РµРЅРєРѕ Р’РёРєС‚РѕСЂ РРІР°РЅРѕРІРёС‡",
+        "issue_date": "2022-0-20",
+        "issued": "Р“РЈ РњР’Р” Р РћРЎРЎРР РџРћ Р“. РЎРђРќРљРў-РџР•РўР•Р Р‘РЈР Р“РЈ Р Р›Р•РќРРќР“Р РђР”РЎРљРћР™ РћР‘Р›РђРЎРўР",
+        "number": "2233444",
+        "series": "4422"
+      },
+      "role": {
+        "dictName": "RoleTypes",
+        "dictValues": [
+          {
+            "dictValue": {
+              "group": "EADOC",
+              "value": "Applicant"
+            }
+          }
+        ]
+      },
+      "shortname": "РћРћРћ "
+      РќРћР
+      ’
+      РђРЇ
+      РР
+      –
+      РћР
+      Рђ
+      "",
+      "type": {
+        "dictName": "MemberTypes",
+        "dictValues": [
+          {
+            "dictValue": {
+              "group": "EADOC",
+              "value": "legal"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "doc_type": {
+    "dictName": "DocTypes",
+    "dictValues": [
+      {
+        "dictValue": {
+          "group": "EADOC",
+          "value": "loss"
+        }
+      }
+    ]
+  },
+  "file_metadata": [
+    {
+      "app_id": "4e440f6d-efdd-4b6d-a160-54f55c8e78e0",
+      "categories": "РћР±С‰РёРµ",
+      "crc": "C4C29F54",
+      "current_version": true,
+      "doc_size": 936448,
+      "file_name": "Fwd_ _Ticket#931651490_ 096РџР 1960005439 РћРћРћ РќРѕРІР°СЏ РР¶РѕСЂР° Р РѕСЃС‚РѕРІСЃРєР°СЏ 4_3-112 Р”РµРјРµРЅРµРІР° Р®_Рќ.msg",
+      "file_type": {
+        "dictName": "FileTypes",
+        "dictValues": [
+          {
+            "dictValue": {
+              "group": "EADOC",
+              "value": "common_type"
+            }
+          }
+        ]
+      },
+      "id_as_filemetadata": "8445639",
+      "medical_doc": false,
+      "url_as": "2023/07/17/9a58cb3665a64b61a9aeec5a773d9f04.msg"
+    },
+    {
+      "app_id": "4e440f6d-efdd-4b6d-a160-54f55c8e78e0",
+      "categories": "РћР±С‰РёРµ",
+      "crc": "9B5B0B38",
+      "current_version": true,
+      "doc_size": 346624,
+      "file_name": "RE_ 112853-Р“Рћ-23_РќРѕРІР°СЏ РР¶РѕСЂР°_РєРІ 112 Р”РµРјРµРЅРµРІР° Р®_Рќ.msg",
+      "file_type": {
+        "dictName": "FileTypes",
+        "dictValues": [
+          {
+            "dictValue": {
+              "group": "EADOC",
+              "value": "common_type"
+            }
+          }
+        ]
+      },
+      "id_as_filemetadata": "8486931",
+      "medical_doc": false,
+      "url_as": "2023/07/20/773de09a48a1431fb6c1272438a0ba66.msg"
+    },
+    {
+      "app_id": "4e440f6d-efdd-4b6d-a160-54f55c8e78e0",
+      "categories": "РћР±С‰РёРµ",
+      "crc": "ABA2F564",
+      "current_version": true,
+      "doc_size": 16710962,
+      "file_name": "Р”РѕРіРѕРІРѕСЂ 096РџР 1960005439.pdf",
+      "file_type": {
+        "dictName": "FileTypes",
+        "dictValues": [
+          {
+            "dictValue": {
+              "group": "EADOC",
+              "value": "client_ins_contract"
+            }
+          }
+        ]
+      },
+      "id_as_filemetadata": "8445641",
+      "medical_doc": false,
+      "url_as": "2023/07/17/71ba1e1274c04fb9afe5e922553b7488.pdf"
+    },
+    {
+      "app_id": "4e440f6d-efdd-4b6d-a160-54f55c8e78e0",
+      "categories": "РћР±С‰РёРµ",
+      "crc": "895450DF",
+      "current_version": true,
+      "doc_size": 579861,
+      "file_name": "invoice_096РџР 1960005439.pdf",
+      "file_type": {
+        "dictName": "FileTypes",
+        "dictValues": [
+          {
+            "dictValue": {
+              "group": "EADOC",
+              "value": "client_ins_docs_policy_pay_check"
+            }
+          }
+        ]
+      },
+      "id_as_filemetadata": "8445640",
+      "medical_doc": false,
+      "url_as": "2023/07/17/8eb747bc19bd4d9d9850c5a723e0f1a9.pdf"
+    },
+    {
+      "app_id": "4e440f6d-efdd-4b6d-a160-54f55c8e78e0",
+      "categories": "РћР±С‰РёРµ",
+      "crc": "7A7330BD",
+      "current_version": true,
+      "doc_size": 880545,
+      "file_name": "doc22304020230717093933.pdf",
+      "file_type": {
+        "dictName": "FileTypes",
+        "dictValues": [
+          {
+            "dictValue": {
+              "group": "EADOC",
+              "value": "client_claim_pay"
+            }
+          }
+        ]
+      },
+      "id_as_filemetadata": "8445638",
+      "medical_doc": false,
+      "url_as": "2023/07/17/305f6e8257ad4e89b8f7f11c5c37f008.pdf"
+    },
+    {
+      "app_id": "4e440f6d-efdd-4b6d-a160-54f55c8e78e0",
+      "categories": "РћР±С‰РёРµ",
+      "crc": "A18B01D9",
+      "current_version": true,
+      "doc_size": 52736,
+      "file_name": "Re_ 112853-Р“Рћ-23_РќРѕРІР°СЏ РР¶РѕСЂР°_РєРІ 112 Р”РµРјРµРЅРµРІР° Р®_Рќ.msg",
+      "file_type": {
+        "dictName": "FileTypes",
+        "dictValues": [
+          {
+            "dictValue": {
+              "group": "EADOC",
+              "value": "common_type"
+            }
+          }
+        ]
+      },
+      "id_as_filemetadata": "8715420",
+      "medical_doc": false,
+      "url_as": "2023/08/08/db2d95db5f3845169d7a130b7fa52b40.msg"
+    },
+    {
+      "app_id": "4e440f6d-efdd-4b6d-a160-54f55c8e78e0",
+      "categories": "РћР±С‰РёРµ",
+      "crc": "7A716D06",
+      "current_version": true,
+      "doc_size": 259584,
+      "file_name": "Re_ 112853-Р“Рћ-23_РќРѕРІР°СЏ РР¶РѕСЂР°_РєРІ 112 Р”РµРјРµРЅРµРІР° Р®_Рќ.msg",
+      "file_type": {
+        "dictName": "FileTypes",
+        "dictValues": [
+          {
+            "dictValue": {
+              "group": "EADOC",
+              "value": "common_type"
+            }
+          }
+        ]
+      },
+      "id_as_filemetadata": "8997626",
+      "medical_doc": false,
+      "url_as": "2023/08/30/0752bebe58104b839acaf082ceeeca75.msg"
+    },
+    {
+      "app_id": "4e440f6d-efdd-4b6d-a160-54f55c8e78e0",
+      "categories": "РћР±С‰РёРµ",
+      "crc": "8EF006C0",
+      "current_version": true,
+      "doc_size": 195949,
+      "file_name": "РћРўР—Р«Р’ СѓРІРµРґРѕРјР»РµРЅРёСЏ.pdf",
+      "file_type": {
+        "dictName": "FileTypes",
+        "dictValues": [
+          {
+            "dictValue": {
+              "group": "EADOC",
+              "value": "inner_inner_reject_email"
+            }
+          }
+        ]
+      },
+      "id_as_filemetadata": "8997518",
+      "medical_doc": false,
+      "url_as": "2023/08/30/c7137c3e21f449e7a2fe93cedac0e3d6.pdf"
+    },
+    {
+      "app_id": "4e440f6d-efdd-4b6d-a160-54f55c8e78e0",
+      "categories": "РћР±С‰РёРµ",
+      "crc": "4F13D7CF",
+      "current_version": true,
+      "doc_size": 199628,
+      "file_name": "РџСЂРѕРµРєС‚ СЃС‚СЂР°С…РѕРІРѕРіРѕ Р°РєС‚Р°.pdf",
+      "file_type": {
+        "dictName": "FileTypes",
+        "dictValues": [
+          {
+            "dictValue": {
+              "group": "EADOC",
+              "value": "inner_draft_insurance_act"
+            }
+          }
+        ]
+      },
+      "id_as_filemetadata": "8997623",
+      "medical_doc": false,
+      "url_as": "2023/08/30/ff1076e0a4bc45b5acfd4c1b376ee17a.pdf"
+    }
+  ],
+  "id_as_doc": "4455035",
+  "insurance_product": {
+    "dictName": "InsuranceProducts",
+    "dictValues": [
+      {
+        "dictValue": {
+          "group": "EADOC",
+          "value": "ComplexLiabilityInsurance"
+        }
+      }
+    ]
+  },
+  "jwt_token": {
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJMVHI0eHlnc1VQRng5UnYwOEZyc2pRblVEc2szcmZuT2Q4a1RNMEtHTm9JIn0.eyJleHAiOjE3MDkwMTQ1NDgsImlhdCI6MTcwOTAxNDI0OCwianRpIjoiNDc2NzhkNjQtNTJlYy00N2YwLWIxZmQtYmY0NzA4YzcyMDE2IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLnNiZXJiYW5raW5zLnJ1L2F1dGgvcmVhbG1zL3NwaGVyZSIsImF1ZCI6WyJlY20iLCJhY2NvdW50Il0sInN1YiI6IjdlNGM1NjJkLTA0NjItNGQ1ZC1hZWI5LTQ2MzIzYWQ5MTJmYSIsInR5cCI6IkJlYXJlciIsImF6cCI6InNwaGVyZSIsInNlc3Npb25fc3RhdGUiOiI5ODkxNWJhNS1jMjIyLTRmOTItOTFkZi1mZjRlMjQwN2FiYWYiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1zcGhlcmUiLCJvZmZsaW5lX2FjY2VzcyIsIklUQURNXzYtMDEiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoicHJvZmlsZSBlbWFpbCBvcGVuaWQiLCJzaWQiOiI5ODkxNWJhNS1jMjIyLTRmOTItOTFkZi1mZjRlMjQwN2FiYWYiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6ItCQ0LTQvNC40L3QuNGB0YLRgNCw0YLQvtGAINCV0KHQnCDQodGE0LXRgNCwIiwicHJlZmVycmVkX3VzZXJuYW1lIjoiZWNtX2FkbWluX3NwaGVyZSIsImdpdmVuX25hbWUiOiLQkNC00LzQuNC90LjRgdGC0YDQsNGC0L7RgCDQldCh0JwiLCJmYW1pbHlfbmFtZSI6ItCh0YTQtdGA0LAiLCJlbWFpbCI6InJvYm90X2FkbWluX2VjbV9zcGhlcmVAc2Jlcmlucy5ydSJ9.CjCvLy7Q2iJ1spJd9Rl7Ps4eephbKa_gyUuGnNSgWaJV85d7Tobo9BF5wQq-DTe2T12ADXoRpQ1HQJ93uziVZuGB4F50q8IedkOO2XHQsY3hMLaLGGN2ja5WthK5kAe4brv1dCG1spOkjw-82GclQTfTn_51EoYxcDYS5nUA4ZzOn7n2Vqzdg5w-p23POMcdd6K2Mxr03tc-hhrhhc7cQov2wxGNCo_evGaX1fY3HSQEIMfMwdZ9u_TyqtmHPoBVA8jKKvKtFgjhLite3V0cvkIGuMpYXOChYSQbnvtDstYfGQ_2LT10BMdTiJosvOoqt51dcJuNPx4y4qWBS-Y4ow",
+    "expires_in": 300.0,
+    "not_before_policy": null,
+    "refresh_expires_in": 1800.0,
+    "scope": "profile email openid",
+    "session_state": "98915ba5-c222-4f92-91df-ff4e2407abaf",
+    "token_type": "Bearer"
+  },
+  "rquid": "95c252a8-149c-4dc7-b982-1f79fe4ae49c",
+  "status": "РђСЂС…РёРІ"
+}

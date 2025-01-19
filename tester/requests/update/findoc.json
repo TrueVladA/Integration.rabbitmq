@@ -1,0 +1,80 @@
+{
+  "id_ecm_doc": "0190eed5-87f1-7e69-89ca-223993cab090",
+  "app_id": "4e440f6d-efdd-4b6d-a160-54f55c8e78e0",
+  "contract_date": "2024-01-24T13:34:42",
+  "contract_end_date": "2025-01-23T20:59:59",
+  "contract_full_number": "077LL0600101101",
+  "contract_number": "077LL0600101101",
+  "contract_start_date": "2024-01-24T13:59:39",
+  "creator": {
+    "app_id": "4e440f6d-efdd-4b6d-a160-54f55c8e78e0",
+    "email": "aleksey.vedeneev@sberins.ru",
+    "fullname": "Веденеев Алексей Андреевич",
+    "id_as_creator": "534",
+    "role": "creator"
+  },
+  "doc_number" : "${doc_number}",
+  "doc_full_number" : "${doc_number}",
+  "doc_date": "2024-02-13T11:48:20",
+  "doc_name": "DamageRequest 000444-ТС-24",
+  "doc_parties": [],
+  "doc_type": {
+    "dictName": "DocTypes",
+    "dictValues": [
+      {
+        "dictValue": {
+          "group": "EADOC",
+          "value": "requestforpayment"
+        }
+      }
+    ]
+  },
+  "editor": {
+    "app_id": "4e440f6d-efdd-4b6d-a160-54f55c8e78e0",
+    "email": "aleksey.vedeneev@sberins.ru",
+    "fullname": "Веденеев Алексей Андреевич",
+    "id_as_creator": "534",
+    "role": "creator"
+  },
+  "file_metadata": [
+    {
+      "app_id": "4e440f6d-efdd-4b6d-a160-54f55c8e78e0",
+      "categories": "Общие",
+      "crc": "0F8E8729",
+      "current_version": true,
+      "doc_size": 156981,
+      "file_name": "Исковое заявление.jpg",
+      "file_type": {
+        "dictName": "FileTypes",
+        "dictValues": [
+          {
+            "dictValue": {
+              "group": "EADOC",
+              "value": "client_judicial_claim_statement"
+            }
+          }
+        ]
+      },
+      "id_as_filemetadata": "20629233434234",
+      "medical_doc": false,
+      "url_as": "2024/02/13/1868f4f896c54912af03de5bbfe8422e.jpg",
+      "project": "task"
+    }
+  ],
+  "id_as_doc" : "${id_as_doc}",
+  "comment": "test upd",
+  "currency_num": "960",
+  "sum": "1111.22",
+  "payment_purpose": "Test upd",
+  "jwt_token": {
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIwVGlCQWEwZVdkd25EWm13ME5OUTVPM3pCSGRqOUdvanNERERBZUJZYzBRIn0.eyJleHAiOjE3MDc4MjUyODcsImlhdCI6MTcwNzgyNDk4NywiYXV0aF90aW1lIjoxNzA3ODIzNzcxLCJqdGkiOiJhN2IxNTg2Ni0zZDJiLTQ0NjItOThjZS0zMWI0NmQyNjRkNWIiLCJpc3MiOiJodHRwczovL3RzdC5zYmVyYmFua2lucy5ydS9hdXRoL3JlYWxtcy9zcGhlcmUiLCJhdWQiOiJlY20iLCJzdWIiOiJiMzI5NjUxNS0zYjE4LTQ3ZTktOGVjMi1kYTAwMmM4YjRhMjEiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJzcGhlcmUiLCJzZXNzaW9uX3N0YXRlIjoiODcwMmMwZDUtNTM1Mi00M2JmLWJkMTQtM2ZhOTU0MTc2NTViIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIkNMQUlNU180LTAyIiwiQ0xBSU1TXzQtMDEiLCJDTEFJTVNfNC0wNiIsIkNMQUlNU180LTA1IiwiQ0xBSU1TXzQtMDQiLCJDTEFJTVNfNC0wMyIsIklUQURNXzYtMDEiLCJDTEFJTVNfNC0wNyJdfSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsInNpZCI6Ijg3MDJjMGQ1LTUzNTItNDNiZi1iZDE0LTNmYTk1NDE3NjU1YiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoi0JDQu9C10LrRgdC10Lkg0JLQtdC00LXQvdC10LXQsiIsInByZWZlcnJlZF91c2VybmFtZSI6ImFsZWtzZXkudmVkZW5lZXZAc2Jlcmlucy5ydSIsImdpdmVuX25hbWUiOiLQkNC70LXQutGB0LXQuSIsImZhbWlseV9uYW1lIjoi0JLQtdC00LXQvdC10LXQsiIsImVtYWlsIjoiYWxla3NleS52ZWRlbmVldkBzYmVyaW5zLnJ1In0.VPkwmWos0B3R3ss-TdLzCbomLjBqjqDkl-UTZ8PghgYohbAK8G7og8FMSjc4IOxlbtAtbnUdbodrfsDdNEfqQC2ZlB-YnGUNS_QCSkEXQtngM57G1KdGZa5Jl-3E_Ue66tS9O6g5PX_IcH15e3z8vPMGaXyvCaFP_FWPp-F0F_a7Kjlwxwd17dfIctVHqsP1XfgXwS-5HF9tJdGdZQ9Y4WKDAcNGq0IhH9SfO1bQNUDEbqLTzTgB3NHRKzpdKDGXWmTf8ycwHrYT6jOF0T1mIz49XH-crdv5qsv2Kk-7wIpoicfErlYjzTkDflg7gy-F4Kfe8Uhc0Rv1j-sRpyckQA",
+    "expires_in": 300.0,
+    "not_before_policy": null,
+    "refresh_expires_in": 1800.0,
+    "scope": "openid profile email",
+    "session_state": "8702c0d5-5352-43bf-bd14-3fa95417655b",
+    "token_type": "Bearer"
+  },
+  "rquid": "8b3dbb68-da8b-4680-8475-de212b0035af",
+  "status": "Черновик"
+}

@@ -1,0 +1,26 @@
+{
+  "app_id": "4e440f6d-efdd-4b6d-a160-54f55c8e78e0",
+  "doc_type": {
+    "dictName": "DocTypes",
+    "dictValues": [
+      {
+        "dictValue": {
+          "group": "EADOC",
+          "value": "loss"
+        }
+      }
+    ]
+  },
+  "id_ecm_doc": "018dc373-1050-7022-a8d2-f9d1f4a14c7a",
+  "jwt_token": {
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIwVGlCQWEwZVdkd25EWm13ME5OUTVPM3pCSGRqOUdvanNERERBZUJZYzBRIn0.eyJleHAiOjE3MTM4NTg1OTYsImlhdCI6MTcxMzg1ODI5NiwiYXV0aF90aW1lIjoxNzEzODU4MTU5LCJqdGkiOiI0MjE1ZjU5Ni0yYjg4LTRhOTQtYmEwZS1iNjdmNTQxYjEwYTQiLCJpc3MiOiJodHRwczovL3RzdC5zYmVyYmFua2lucy5ydS9hdXRoL3JlYWxtcy9zcGhlcmUiLCJhdWQiOiJlY20iLCJzdWIiOiIwOTlmZWJjMC1lY2NiLTQ1ZGYtYWJhZC0zZTliOGFhNjBiNzEiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJzcGhlcmUiLCJzZXNzaW9uX3N0YXRlIjoiYjg1YTYxMWEtZGMwNS00YTI1LTliMTUtMGIxODNmNDhmZmU2IiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIkNMQUlNU180LTEwIiwiSVRBRE1fNi0wMSJdfSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsInNpZCI6ImI4NWE2MTFhLWRjMDUtNGEyNS05YjE1LTBiMTgzZjQ4ZmZlNiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoi0KHQtdGA0LPQtdC5INCU0LXRgNC10LLRj9C90LrQviIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcmdleS5kZXJldnlhbmtvQHNiZXJpbnMucnUiLCJnaXZlbl9uYW1lIjoi0KHQtdGA0LPQtdC5IiwiZmFtaWx5X25hbWUiOiLQlNC10YDQtdCy0Y_QvdC60L4iLCJlbWFpbCI6InNlcmdleS5kZXJldnlhbmtvQHNiZXJpbnMucnUifQ.OBIS9v5JJpRcm-ut_aHhF35lGbILUnddyul68LOeDLOfoRuT5kcFVEAh8l71kvlGYGMdWJ_7VlcE19Pkyg1y9sBZOFe1GxherXtFbLjYyYfZ9agrcVUxgXMiBOPW1Rs6lyYkMcBQjHt0T2xbhfSQnXfV8hxGKKDJSNVdc26O_8Y4FfEgw81N4qast38xqX4GBJlB7xm-4V61KBHfwkQI0aUrpJeFpclrOObAoDayDANHgFBN7I9mJks9xhD2cdeu_hNZED2yeG7aqNmG09jqZXVKdfQW0B83SmhizeIUraBlHrI9nx3iEIGgmhetrxj7EPClCEVw9tlc69X5Oe2gAw",
+    "expires_in": 300.0,
+    "not_before_policy": null,
+    "refresh_expires_in": 1800.0,
+    "scope": "openid profile email",
+    "session_state": "ae592087-053f-4700-955b-6db6b7e8eec3",
+    "token_type": "Bearer"
+  },
+  "rquid": "38362047-b41c-4af6-bb97-23b6bb566454",
+  "list_flmd": ["018dc373-0f9e-7022-aa04-e2d89127d6ec"]
+}

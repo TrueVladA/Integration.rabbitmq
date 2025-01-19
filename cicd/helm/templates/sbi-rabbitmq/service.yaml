@@ -1,0 +1,14 @@
+{{- $service_name := "main" }}
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "sbiMQ.resourceFullname" (list . $service_name) }}
+  labels:
+    {{- include "sbiMQ.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.sbiMQ.service.type }}
+  ports:
+    - port: {{ .Values.sbiMQ.service.port }}
+      name: tomcat
+  selector:
+    {{- include "sbiMQ.selectorAppLabels" (list . $service_name) | nindent 4 }}

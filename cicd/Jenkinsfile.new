@@ -1,0 +1,34 @@
+pipeline {
+    agent {
+        label 'master'
+    }
+    environment {
+	    REGISTRY_URL = 'cprd-doc-reg01.sberins.ru:10010'
+		SERVICE_NAME = 'intg-rabbitmq'
+		VERSION = '${TAG}'
+    }
+    stages {
+		stage('Build') {
+            steps {
+				dir('.') {
+				    withCredentials([usernamePassword(credentialsId: "doc-reg-elma", passwordVariable: 'nexus_password', usernameVariable: 'nexus_username')]) {
+                            sh "docker login -u=\"${nexus_username}\" -p=\"${nexus_password}\" https://${env.REGISTRY_URL}/"
+							sh "docker build -f cicd/Dockerfile --build-arg Env=${SSLServer} -t ${env.REGISTRY_URL}/${env.SERVICE_NAME}:${env.VERSION} ."
+							sh "echo 'Push to registry'"
+							sh "docker push ${env.REGISTRY_URL}/${env.SERVICE_NAME}:${env.VERSION}"
+					}
+				}
+            }
+        }
+	
+        stage('Deploy integration module') {
+            steps {
+                 withCredentials([kubeconfigFile(credentialsId: env.KUBEID, variable: 'KUBECONFIG')]) {
+                    sh '''
+                      helm upgrade --install ${SERVICE_NAME} .ci/helm --namespace elma365 --wait --timeout 300s -f ./.ci/helm/${VALUE} --set image.name="${REGISTRY_URL}/${SERVICE_NAME}" --set image.tag=${TAG}
+                    '''
+                }
+            }
+        }
+    }
+}

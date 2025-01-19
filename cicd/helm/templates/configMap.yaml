@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "sbiMQ.resourceFullname" (list . "env") }}
+  labels:
+    {{- include "sbiMQ.labels" . | nindent 4 }}
+data:
+  SERVER_ADDRESS: '0.0.0.0'
+  SERVER_PORT: {{ .Values.sbiMQ.service.port | squote }}
+{{- with .Values.env.configMap }}
+  {{- toYaml . | nindent 2}}
+{{- end }}

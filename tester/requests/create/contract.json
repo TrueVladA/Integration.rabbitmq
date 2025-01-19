@@ -1,0 +1,87 @@
+{
+  "rquid" : "614de665-48b1-4022-bc98-6a634af97fc7",
+  "jwt_token" : {
+    "access_token" : "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJGQ0VlcFpJRkRkTWw0RWNJbkJ3bmlISlctT0xiMVBOUUlvckJVNXB2SGFFIn0.eyJleHAiOjE3MDExNjkwNTEsImlhdCI6MTcwMTE2ODc1MSwianRpIjoiYzYwZTdiY2YtNDQ1Mi00MGZlLTgzNTEtMDAxNzAyNzA0ZGIxIiwiaXNzIjoiaHR0cHM6Ly90c3Quc2JlcmJhbmtpbnMucnUvYXV0aC9yZWFsbXMvc3NvdjIiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMWEzMGY4YmItMDlmNS00MzI0LTg4OGMtNTNjZjU3ODZlYzE5IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYjJiLWVjbS1jbGllbnQiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHBzOi8vdHN0LnNiZXJiYW5raW5zLnJ1Il0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJiMmJfYWRtaW4iLCJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtc3NvdjIwIiwiU1NPXzEtMDEiLCJ1bWFfYXV0aG9yaXphdGlvbiIsIlNTT184LTAyIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIG9wZW5pZCBlbWFpbCIsImNsaWVudEhvc3QiOiIyMTcuMTUuMTQ0LjIxNiIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwibmFtZSI6InNlcnZpY2UtYWNjb3VudC1iMmItZWNtLWNsaWVudCIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1iMmItZWNtLWNsaWVudCIsImdpdmVuX25hbWUiOiJzZXJ2aWNlLWFjY291bnQtYjJiLWVjbS1jbGllbnQiLCJjbGllbnRBZGRyZXNzIjoiMjE3LjE1LjE0NC4yMTYiLCJlbWFpbCI6ImIyYi1lY20tY2xpZW50QHNiZXJiYW5raW5zLnJ1IiwiY2xpZW50X2lkIjoiYjJiLWVjbS1jbGllbnQifQ.P3_ulEU_4M2bxIX3232l3bormk6ntBKl3VNBHhRwbtZFxld9_YEdFqCcVD4Z4qCFlbO6QZIrAB4vMsfPSDbUvWwFeXsfxg31NTEo0yeH-ysRi5FXwCNtCzflvn-kooLjSVWURuO3atmIZFJil6AAe5eslWx3VdZodeeINqXkijGb9zq1sL6_32wcM9ePyQ_EcdJJQeG9bnWPG_KVQidSKCn1rDvJ_mFdnWcTMiEbHgO7LRSfZEPf1Lrmn1q7GbkYWlnB8k8XLXH2zV3ZnqN_RurnAZV-zZgbgxMekS0lwt9kzgNNAT3RDheAcgxsKvl4Ixy4_55EAxqxgR-eNcUAYg",
+    "expires_in" : 1701169051,
+    "refresh_expires_in" : null,
+    "refresh_token" : null,
+    "token_type" : null,
+    "not-before-policy" : null,
+    "session_state" : null,
+    "scope" : null
+  },
+  "id_as_doc" : "${id_as_doc}",
+  "app_id" : "98d9d215-6736-48ec-9bb5-904b3eaac695",
+  "doc_series" : "${doc_series}",
+  "doc_number" : "${doc_number}",
+  "doc_full_number" : "${doc_series}${doc_number}",
+  "contract_series" : "${contract_series}",
+  "contract_number" : "${contract_number}",
+  "contract_full_number" : "${contract_series}${contract_number}",
+  "doc_date" : 1643786280000,
+  "contract_date" : 1643786280000,
+  "contract_start_date" : null,
+  "contract_end_date" : null,
+  "doc_type" : {
+    "dictName" : "DocTypes",
+    "dictValues" : [ {
+      "dictValue" : {
+        "group" : "SSO",
+        "value" : "contract_ins"
+      }
+    } ]
+  },
+  "contract_type" : {
+    "dictName" : "ContractTypes",
+    "dictValues" : [ {
+      "dictValue" : {
+        "group" : "SSO",
+        "value" : "contract_ins"
+      }
+    } ]
+  },
+  "doc_name" : null,
+  "deal" : null,
+  "creator" : {
+    "id_ecm_creator" : "",
+    "id_as_creator" : "b2b-ecm-client",
+    "app_id" : "98d9d215-6736-48ec-9bb5-904b3eaac695",
+    "staff_number" : null,
+    "fullname" : "SSO_1-01",
+    "role" : null,
+    "email" : null
+  },
+  "status" : "1",
+  "parent_doc" : null,
+  "doc_parties" : null,
+  "insurance_product" : null,
+  "income_number" : null,
+  "income_date" : null,
+  "outcome_number" : null,
+  "outcome_date" : null,
+  "medical_doc" : null,
+  "file_metadata" : [ {
+    "id_as_filemetadata" : "79080d8f-6699-42c6-a971-5e4e2f4e316e",
+    "app_id" : "98d9d215-6736-48ec-9bb5-904b3eaac695",
+    "file_name" : "Тестовый документ_001.txt",
+    "crc": "Q2hlY2sgSW50ZWdyaXR5IQ==",
+    "file_type" : {
+      "dictName" : "FileTypes",
+      "dictValues" : [ {
+        "dictValue" : {
+          "group" : "SSO",
+          "value" : "claim_create_doc"
+        }
+      } ]
+    },
+    "categories" : null,
+    "create_date" : 1701168983464,
+    "update_date" : 1701168983464,
+    "version_number" : "1",
+    "current_version" : true,
+    "medical_doc" : null,
+    "url_as" : "none",
+    "doc_size" : "5644",
+    "esign" : null
+  } ]
+}

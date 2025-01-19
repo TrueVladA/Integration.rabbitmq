@@ -1,0 +1,34 @@
+{
+  "rquid": "443f9bc2-6b36-4d73-99b7-993c77a31d45",
+  "collection_files_upload": [
+    {
+      "id_ecm_filemetadata": "018e8459-ea85-7bb3-997d-e72c03b94053",
+      "file_name": "Медицинский документ.jpg"
+    },
+    {
+      "id_ecm_filemetadata": "018e8459-e9b9-7bb3-be00-f175802679c6",
+      "file_name": "Реквизиты.jpg"
+    },
+    {
+      "id_ecm_filemetadata": "018e8459-e9ae-7bb3-90c3-ec00e677a9af",
+      "file_name": "Заявление.pdf"
+    }
+  ],
+  "notification_file": [
+    {
+      "id_ecm_filemetadata": "018e8459-ea85-7bb3-997d-e72c03b94053",
+      "id_as_filemetadata": "24947",
+      "upload_status": "uploaded"
+    },
+    {
+      "id_ecm_filemetadata": "018e8459-e9b9-7bb3-be00-f175802679c6",
+      "id_as_filemetadata": "24948",
+      "upload_status": "uploaded"
+    },
+    {
+      "id_ecm_filemetadata": "018e8459-e9ae-7bb3-90c3-ec00e677a9af",
+      "id_as_filemetadata": "24949",
+      "upload_status": "uploaded"
+    }
+  ]
+}

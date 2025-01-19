@@ -1,0 +1,44 @@
+{
+  "editor": {
+    "id_as_creator": "446",
+    "app_id": "4e440f6d-efdd-4b6d-a160-54f55c8e78e0",
+    "fullname": "Панарина Мария Игоревна",
+    "role": "creator",
+    "email": "mariya.panarina@sberins.ru"
+  },
+  "rquid": "9fe9fee8-ae97-4456-8607-79fd10c3a253",
+  "jwt_token": {
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIwVGlCQWEwZVdkd25EWm13ME5OUTVPM3pCSGRqOUdvanNERERBZUJZYzBRIn0.eyJleHAiOjE3MzI1NjE2NzIsImlhdCI6MTczMjU2MTM3MiwianRpIjoiOGRhYmQxNjItZTljOC00YTcwLWE2YWYtYTAzZDdjMWY3NGU2IiwiaXNzIjoiaHR0cHM6Ly90c3Quc2JlcmJhbmtpbnMucnUvYXV0aC9yZWFsbXMvc3BoZXJlIiwiYXVkIjpbImVjbSIsImFjY291bnQiXSwic3ViIjoiYjg3OTdlZWEtOGU2NC00ZWU3LWJmODctYWMyOGQ0NTA5NmQzIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoic3BoZXJlIiwic2Vzc2lvbl9zdGF0ZSI6IjM3YzZlMWRlLTc1NzItNDE5YS1hMzI2LWYzMWE1NWIyMDFlMCIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLXNwaGVyZSIsIm9mZmxpbmVfYWNjZXNzIiwiSVRBRE1fNi0wMSIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsInNpZCI6IjM3YzZlMWRlLTc1NzItNDE5YS1hMzI2LWYzMWE1NWIyMDFlMCIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoi0JDQtNC80LjQvdC40YHRgtGA0LDRgtC-0YAg0JXQodCcINCh0YTQtdGA0LAiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJlY21fYWRtaW5fc3BoZXJlIiwiZ2l2ZW5fbmFtZSI6ItCQ0LTQvNC40L3QuNGB0YLRgNCw0YLQvtGAINCV0KHQnCIsImZhbWlseV9uYW1lIjoi0KHRhNC10YDQsCIsImVtYWlsIjoicm9ib3RfYWRtaW5fZWNtX3NwaGVyZUBzYmVyaW5zLnJ1In0.cWhlPHqTUr5ljbk6HfxRrNmmseiPxD8JtfNR6io0-Nn4R11LSZYz4-amTicXxwXW7YJ6qtEIejBYRz7kRFQ6gqdwQF36nWHWVFkozmDjOEpoQhLvNBvWE1qpIzsgaf-4MOJ25ECn3RCM5Xwzn2ovZLLApL46L62Jm2l9gD7Y3bCSSZ7wRDdUV0CZoFvoCEm1jYsYr0HBHPavy2QXpkVox4AB3oAKjJWNGTDdZw1bVMqfaizwj6Kr6HPDrgsRrRS4DMl5OjK_iVueIUtSjFzeDa4KzlLYuWnc5I-KH745503obIV56blt5acgzRVYrWl4Yf0HabqP-_42uRhX6SqgKw"
+  },
+  "id_ecm_doc": "018c2009-bbb3-7021-9765-1cf997e14eff",
+  "doc_type": {
+    "dictName": "DocTypes",
+    "dictValues": [
+      {
+        "dictValue": {
+          "group": "EADOC",
+          "value": "loss"
+        }
+      }
+    ]
+  },
+  "id_as_doc": "141192",
+  "file_metadata": [
+    {
+      "id_ecm_filemetadata": "018c2009-b8a7-7021-89af-bf8a8677a794",
+      "id_as_filemetadata": "15897",
+      "file_type": {
+        "dictName": "FileTypes",
+        "dictValues": [
+          {
+            "dictValue": {
+              "group": "EADOC",
+              "value": "inner_insurance_act"
+            }
+          }
+        ]
+      },
+      "file_name": "inner_insurance_act.pdf"
+    }
+  ]
+}

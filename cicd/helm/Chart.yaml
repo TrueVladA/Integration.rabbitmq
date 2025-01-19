@@ -1,0 +1,5 @@
+apiVersion: v14
+version: 1.0.10
+name: sbi-rabbitmq
+type: application
+appVersion: "1.0.10"

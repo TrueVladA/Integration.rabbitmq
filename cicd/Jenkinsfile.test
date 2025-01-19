@@ -1,0 +1,67 @@
+pipeline {
+    agent any
+    options { timestamps () }
+    environment {
+		REGISTRY_URL = 'cprd-doc-reg01.sberins.ru:10010'
+        DOCKER_IMAGE_NAME = 'cprd-doc-reg01.sberins.ru:10010'
+        DOCKER_IMAGE_TAG = "$env.BUILD_NUMBER"
+      	NAME = 'sber-miil-mvp'
+      	VERSION = 'test'
+      	ENV = 'test'
+    }
+    stages {
+            stage('Build'){
+				steps {
+					dir('.') {
+				    withCredentials([usernamePassword(credentialsId: "doc-reg-elma", passwordVariable: 'nexus_password', usernameVariable: 'nexus_username')]) {
+
+                    //  	configFileProvider(configFile(fileId: 'elma-mvn', targetLocation: 'settings.xml')]) {
+                            sh "docker login -u=\"${nexus_username}\" -p=\"${nexus_password}\" https://${env.REGISTRY_URL}/"
+							sh "docker build -f cicd/Dockerfile -t ${env.REGISTRY_URL}/${env.NAME}:${env.VERSION} ."
+							sh "echo 'Push to registry'"
+							sh "docker push ${env.REGISTRY_URL}/${env.NAME}:${env.VERSION}"
+                    //    }
+					}
+					}
+				}
+            }          
+
+        	stage("Deploy") {
+            	steps {
+                dir ('.') {
+                	withCredentials([
+                    	file(credentialsId: 'kubeconfig-test-elma', variable: 'kubeconfig'),
+                        file(credentialsId: 'helm-values-test', variable: 'helm_values')]
+                        ) {
+                    	sh '''
+                        	export KUBECONFIG=${kubeconfig}
+                        	helm upgrade --install intg-rabbitmq ./.ci/helm --namespace elma365 --debug --wait --timeout 300s -f ./.ci/helm/values-test.yaml  --set image.name=${REGISTRY_URL}/${NAME} --set image.tag=${VERSION} --set env.secret.ENV=${VERSION}
+                    	'''
+                    	}
+            	}
+                }
+        	}            
+    	}
+
+    post {
+        always {
+            cleanWs()
+        }
+        failure {
+          	script {
+        		emailext mimeType: 'text/html',
+          		body: "Результат выполнения сборки №${env.BUILD_NUMBER} ${env.BUILD_URL}console",
+          		recipientProviders: [culprits(), developers(), requestor()],
+          		subject: "Error: ${env.JOB_NAME}"
+            }
+        }
+        success {
+            script {
+                emailext mimeType: 'text/html',
+                  body: "Результат выполнения сборки №${env.BUILD_NUMBER} ${env.BUILD_URL}console",
+                  recipientProviders: [culprits(), developers(), requestor()],
+                  subject: "Success: ${env.JOB_NAME}"
+            }
+        }
+    }
+}

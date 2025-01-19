@@ -1,0 +1,47 @@
+{
+  "rquid": "09eec758-b00e-44e2-bcb4-c99cbed0ce5b",
+  "id_as_doc": "${id_as_doc}",
+  "jwt_token": {
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJudVJtcV9Id1JZcnJpR2Q5REFLLU9LYWhXNlBNOE9jX19JeXdLZkpYYWxJIn0.eyJleHAiOjE3MTIzMjMwNzgsImlhdCI6MTcxMjMyMjc3OCwianRpIjoiM2YxOGIzOWMtOWJhNy00YWRlLTg0NDQtZWZkNGMwNDNiYjY1IiwiaXNzIjoiaHR0cHM6Ly90c3Quc2JlcmJhbmtpbnMucnUvYXV0aC9yZWFsbXMvRUNNIiwiYXVkIjoiZWNtIiwic3ViIjoiNzJmYjM2ZDctMmRiYS00ODQyLTk1ZWQtNGMxODc3MmE5YTlhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoidmlydHUtYXBwIiwic2Vzc2lvbl9zdGF0ZSI6IjA3MzUxY2IzLWYzMWQtNDY0OS1hOGFiLTllNzM1ZjY5YmQ3MSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJNVFJfMS0wMSJdfSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiMDczNTFjYjMtZjMxZC00NjQ5LWE4YWItOWU3MzVmNjliZDcxIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJuYW1lIjoidmlydHVhdnRvLWVjbS11c2VyIHZpcnR1YXZ0by1lY20tdXNlciIsInByZWZlcnJlZF91c2VybmFtZSI6InZpcnR1YXZ0by1lY20tdXNlciIsImdpdmVuX25hbWUiOiJ2aXJ0dWF2dG8tZWNtLXVzZXIiLCJmYW1pbHlfbmFtZSI6InZpcnR1YXZ0by1lY20tdXNlciIsImVtYWlsIjoidGVzdC1qeEBzYmVyaW5zLnJ1In0.X1c5fvV35vE5Kp8LeG69m5GlFguhjV-2Dq6FKTh0dHRyOyX_gNOmyrpT1g9ixHn5F3x6mNAIr-o1qoehn25R8AfTJdnzzF6ZadTmNJDscYsMLvu--eD0b3sTGgo1uq-g5WvKIuVcCq2pUj6efISrGDIVPgVJGH5PL2H3oUBs3sikODHzDD-t6lJYhFPUGUF1ghoALffwrdHcma1yf44wXK2M9Nwb4E10kEwgn3ghlxJXgjJ9v7fY3XDxZJXdIW0wbNRTADT6Rq_nnvdQ7Q-YU84bKXsuPE-x_DutIKA_DYyM53lj6kn-3osPtuo9DdvQlqY-iPzRohzAl8ylpbcoww"
+  },
+  "number": "${doc_number}",
+  "fio": "A A A",
+  "issue_date": "2024-04-04T16:17:14.442+00:00",
+  "full_number": "${doc_series}${doc_number}",
+  "code_identitydoc": {
+    "dictName": "DocTypes",
+    "dictValues": [
+      {
+        "dictValue": {
+          "group": "EADOC",
+          "value": "passport_foreign"
+        }
+      }
+    ]
+  },
+  "file_metadata": [
+    {
+      "id_as_filemetadata": "d01235cb-4f1c-4507-ac52-398ad62def56",
+      "app_id": "d1d6f76a-1cfc-47f0-9589-cb32803be015",
+      "file_name": "message.eml",
+      "file_type": {
+        "dictName": "FileTypes",
+        "dictValues": [
+          {
+            "dictValue": {
+              "group": "EADOC",
+              "value": "client_doccreate_email"
+            }
+          }
+        ]
+      },
+      "categories": "OSAGO",
+      "create_date": "2024-04-04T16:17:19.198+00:00",
+      "version_number": "1",
+      "current_version": true,
+      "medical_doc": false,
+      "url_as": "contract_122563209",
+      "doc_size": "831197"
+    }
+  ]
+}

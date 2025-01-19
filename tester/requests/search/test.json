@@ -1,0 +1,16 @@
+{
+  "rquid": "4d423d5b-ae94-40a9-a21c-129b0cb653bf",
+  "jwt_token": {
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJudVJtcV9Id1...................2kbETbqn1_PofCxTQ"
+  },
+  "doc_full_number": "000964-ТС-24",
+  "doc_type": {
+    "dictName": "DocTypes",
+    "dictValues": [{
+      "dictValue": {
+        "group": "EADOC",
+        "value": "loss"
+      }
+    }]
+  }
+}

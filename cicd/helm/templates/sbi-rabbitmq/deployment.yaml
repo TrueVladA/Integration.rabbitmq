@@ -1,0 +1,50 @@
+{{- $service_name := "main" }}
+{{- $env := include "sbiMQ.resourceFullname" (list . "env") }}
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "sbiMQ.resourceFullname" (list . $service_name) }}
+  labels:
+    {{- include "sbiMQ.labels" . | nindent 4 }}
+    {{- include "sbiMQ.deploymentLabels" (list . $service_name) | nindent 4 }}
+spec:
+  replicas: {{ .Values.sbiMQ.deployment.replicaCount | int }}
+  selector:
+    matchLabels:
+      {{- include "sbiMQ.deploymentLabels" (list . $service_name) | nindent 6 }}
+  template:
+    metadata:
+      {{- include "sbiMQ.podAnnotations" (list . .Values.sbiMQ.deployment.podAnnotations) | nindent 6 }}
+      labels:
+        {{- include "sbiMQ.deploymentLabels" (list . $service_name) | nindent 8 }}
+    spec:
+      {{- include "sbiMQ.imagePullSecrets" . | nindent 6 }}
+      containers:
+        - name: {{ include "sbiMQ.containerName"  (list . $service_name) }}
+          image: {{ include "sbiMQ.image" . }}
+          imagePullPolicy: {{ include "sbiMQ.imagePullPolicy" . }}
+          envFrom:
+            - configMapRef:
+                name: {{ $env }}
+          {{- if .Values.env.secret }}
+            - secretRef:
+                name: {{ $env }}
+          {{- end }}
+          {{- with .Values.sbiMQ.deployment.securityContext }}
+          securityContext:
+            {{- toYaml . | nindent 12 }}
+          {{- end }}
+          {{- if .Values.sbiMQ.deployment.readinessProbe.enabled }}
+          readinessProbe:
+            httpGet:
+              path: {{ .Values.sbiMQ.deployment.readinessProbe.path | toString | default "/" }}
+              port: {{ .Values.sbiMQ.service.port }}
+              scheme: HTTP
+            {{- with .Values.sbiMQ.deployment.readinessProbe.additionalParams }}
+              {{- toYaml . | nindent 12 }}
+            {{- end }}
+          {{- end }}
+          {{- with .Values.sbiMQ.deployment.resources }}
+          resources:
+            {{- toYaml . | nindent 12 }}
+          {{- end }}
